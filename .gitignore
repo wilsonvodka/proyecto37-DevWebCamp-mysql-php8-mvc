@@ -1,0 +1,5 @@
+.env
+includes/.env
+node_modules/
+vendor/
+node_modules
