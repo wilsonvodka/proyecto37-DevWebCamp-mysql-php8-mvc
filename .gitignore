@@ -1,5 +1,4 @@
 .env
 includes/.env
-node_modules/
-vendor/
+vendor
 node_modules
