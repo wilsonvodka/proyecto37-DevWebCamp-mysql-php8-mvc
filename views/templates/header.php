@@ -12,7 +12,22 @@
             </a>
             <p  class="header__texto">Octubre 5-6 - 2026</p>
             <p  class="header__texto header__texto--modalidad">En linea - presencial</p>
+            
             <a href="/registro" class="header__boton">Comprar pase</a>      
         </div>
     </div>
 </header>
+
+<div class="barra">
+    <div class="barra__contenido">
+        <a href="/">
+           <h2  class="barra__logo"> &#60;DevWebCamp /></h2>
+        </a>
+        <nav class="navegacion">
+            <a href="/devwebcamp" class="navegacion__enlace">Evento</a>
+            <a href="/paquetes" class="navegacion__enlace">Paquetes</a>
+            <a href="/workshops-conferencias" class="navegacion__enlace">Workshops / conferencias</a>
+            <a href="/registro" class="navegacion__enlace">Comprar pase</a>
+        </nav>
+    </div>
+</div>
