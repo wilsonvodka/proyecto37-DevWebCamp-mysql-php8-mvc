@@ -27,7 +27,7 @@
             class="formulario__input"
             id="ciudad"
             name="ciudad"
-            placeholder="ciudad ponente"
+            placeholder="Ciudad ponente"
             value="<?php echo $ponente->ciudad ??  ''; ?>">
     </div>
     <div class="formulario__campo">
@@ -37,7 +37,7 @@
             class="formulario__input"
             id="pais"
             name="pais"
-            placeholder="pais ponente"
+            placeholder="Pais ponente"
             value="<?php echo $ponente->pais ??  ''; ?>">
     </div>
     <div class="formulario__campo">
