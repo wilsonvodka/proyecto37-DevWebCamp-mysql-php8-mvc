@@ -1,16 +1,29 @@
 <?php
 
-function d($variable) : string {
+function d($variable): string
+{
     echo "<pre>";
     var_dump($variable);
     echo "</pre>";
     exit;
 }
-function s($html) : string {
+function s($html): string
+{
     $s = htmlspecialchars($html);
     return $s;
 }
 
-function pagina_actual($path): bool{
+function pagina_actual($path): bool
+{
     return str_contains($_SERVER['PATH_INFO'], $path) ? true : false;
+}
+
+function is_auth(): bool {
+    session_start();
+    return isset($_SESSION['nombre']) && !empty($_SESSION);
+}
+
+function is_adimin():bool {
+    session_start();
+    return isset($_SESSION['admin']) && !empty($_SESSION['admin']);
 }
